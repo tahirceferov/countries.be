@@ -4,3 +4,9 @@ spring:
   profiles:
     active: dev
 
+logging:
+  level:
+    root: info
+server:
+  servlet:
+    context-path: /api
